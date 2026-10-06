@@ -417,6 +417,7 @@ exportToPptx(elementOrSelector, options);
 | `options.skipDownload`   | `boolean`                        | Do not auto-download; return Blob             |
 | `options.svgAsVector`    | `boolean`                        | Preserve SVGs as vectors (default: `false`)   |
 | `options.listConfig`     | `object`                         | List style configuration                      |
+| `options.lang`           | `string`                         | Text language, defaults to `"en-US"`          |
 
 ### Returns
 
